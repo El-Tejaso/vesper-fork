@@ -6,7 +6,15 @@ Most VSCode themes I have seen are quite bad. Most of the time, they sacrifice a
 
 ## Current issues
 
-- Can't read comments in git-dif
+Still looking for them
+
 - hard to see what tab is selected
+
+
+## Fixed issues
+
+- Can't read comments in git-dif
 - Comments cant be read when Ctrl+f selection is over them
+    - Fix: Made comments blue (#8eb7ff). Looks better than I thought it would
 - nil, null, undefined kewords are being highlighted the same as varaibles
+    - added settings to the JSON

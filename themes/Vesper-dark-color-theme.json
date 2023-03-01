@@ -2,46 +2,46 @@
   "name": "Vesper",
   "colors": {
     // Editor
-    "editor.background": "#101010",
+    "editor.background": "#000000",
     "editor.foreground": "#FFF",
     "editor.selectionBackground": "#FFFFFF25",
     "editor.selectionHighlightBackground": "#FFFFFF25",
     "editorLineNumber.foreground": "#505050",
-    "editorGroupHeader.tabsBackground": "#101010",
-    "editorWidget.background": "#101010",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorWidget.background": "#000000",
     "editorWarning.foreground": "#FFC799",
     "editorError.foreground": "#FF8080",
-    "editorOverviewRuler.border": "#101010",
+    "editorOverviewRuler.border": "#000000",
     "editorGutter.addedBackground": "#99FFE4",
     "editorGutter.deletedBackground": "#FF8080",
     "editorGutter.modifiedBackground": "#FFC799",
-    "diffEditor.insertedTextBackground": "#99FFE440",
+    "diffEditor.insertedTextBackground": "#6effd840",
     "diffEditor.insertedLineBackground": "#99FFE440",
     "diffEditor.removedTextBackground": "#FF808040",
     "diffEditor.removedLineBackground": "#FF808040",
     // Sidebar
-    "sideBar.background": "#101010",
+    "sideBar.background": "#000000",
     "sideBarTitle.foreground": "#A0A0A0",
     "sideBarSectionHeader.foreground": "#A0A0A0",
-    "sideBarSectionHeader.background": "#101010",
+    "sideBarSectionHeader.background": "#000000",
     // Activity bar
-    "activityBar.background": "#101010",
+    "activityBar.background": "#000000",
     "activityBar.foreground": "#A0A0A0",
     "activityBarBadge.background": "#FFC799",
     "activityBarBadge.foreground": "#000",
     // Title bar
-    "titleBar.activeBackground": "#101010",
-    "titleBar.inactiveBackground": "#101010",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
     "titleBar.activeForeground": "#7E7E7E",
     "titleBar.inactiveForeground": "#707070",
     // Tab
-    "tab.border": "#101010",
-    "tab.activeBackground": "#161616",
-    "tab.inactiveBackground": "#101010",
+    "tab.border": "#000000",
+    "tab.activeBackground": "#252525",
+    "tab.inactiveBackground": "#000000",
     // Status bar
     "statusBar.debuggingForeground": "#FFF",
     "statusBar.debuggingBackground": "#FF7300",
-    "statusBar.background": "#101010",
+    "statusBar.background": "#000000",
     "statusBar.foreground": "#A0A0A0",
     "statusBarItem.remoteBackground": "#FFC799",
     "statusBarItem.remoteForeground": "#000",
@@ -87,7 +87,7 @@
       "name": "Comment",
       "scope": ["comment", "punctuation.definition.comment"],
       "settings": {
-        "foreground": "#595959"
+        "foreground": "#89b3ff"
       }
     },
     {
@@ -117,7 +117,11 @@
     },
     {
       "name": "Keyword, Storage",
-      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "scope": [
+        "keyword", 
+        "storage.type", 
+        "storage.modifier",
+      ],
       "settings": {
         "foreground": "#A0A0A0"
       }
@@ -186,7 +190,11 @@
         "constant.escape",
         "keyword.other.unit",
         "keyword.other",
-        "constant.language.boolean"
+        "constant.language.boolean",
+        "constant.language.null",
+        "constant.language.undefined",
+        "constant.language.nil",
+        "constant.language.go"
       ],
       "settings": {
         "foreground": "#FFC799"
