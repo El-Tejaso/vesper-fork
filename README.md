@@ -2,7 +2,7 @@
 
 Originally a fork of https://github.com/raunofreiberg/vesper.
 
-Most VSCode themes I have seen are quite bad. Most of the time, they sacrifice all of the useability and utility of VSCode's default theme, or they just look bad. I believe this is the first theme I have seen so far that is actually really good, so it has become my daily driver. However there are a few minor inconveniences in this theme that I aim to fix myself, as I believe that spamming the parent repo with issues or constantly hitting F5 on that repo waiting for all of the issues to be fixed is probably not something I would want to do into the future.
+This is the best VSCode I have seen by far. In fact, it is the only theme I have ever started using daily apart from the default VSCode default theme. However, it had a few issues (and the maintainer did not drop everything they were working on at the time and fix them within 5 min of my github issue), so I have decided to make a fork with my fixes. 
 
 ## Current issues
 
@@ -17,5 +17,5 @@ Can't find any others so far
     - added settings to the JSON
 - hard to see what tab is selected
     - Increased tab brightness.
-    - Also I made the editor background pitch-black (i.e 000. People that go to design school will avoid this color at all costs)
-        I think it looks cooler, but there is 
+    - Also I made the editor background pitch-black. Totally unnecessary, but I think it look cool.
+    I think people avoid #000 at all costs, because it ruins all shadow effects that a UI popup modal might have. I don't really care about those though
