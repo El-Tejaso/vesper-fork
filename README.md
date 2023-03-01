@@ -6,10 +6,7 @@ Most VSCode themes I have seen are quite bad. Most of the time, they sacrifice a
 
 ## Current issues
 
-Still looking for them
-
-- hard to see what tab is selected
-
+Can't find any others so far
 
 ## Fixed issues
 
@@ -18,3 +15,7 @@ Still looking for them
     - Fix: Made comments blue (#8eb7ff). Looks better than I thought it would
 - nil, null, undefined kewords are being highlighted the same as varaibles
     - added settings to the JSON
+- hard to see what tab is selected
+    - Increased tab brightness.
+    - Also I made the editor background pitch-black (i.e 000. People that go to design school will avoid this color at all costs)
+        I think it looks cooler, but there is 
