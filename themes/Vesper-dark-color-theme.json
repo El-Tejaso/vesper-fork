@@ -1,10 +1,11 @@
 {
   "name": "Vesper",
+  "semanticHighlighting": true,
   "colors": {
     // Editor
     "editor.background": "#000000",
     "editor.foreground": "#FFF",
-    "editor.selectionBackground": "#FFFFFF25",
+    "editor.selectionBackground": "#89b2ff51",
     "editor.selectionHighlightBackground": "#FFFFFF25",
     "editorLineNumber.foreground": "#505050",
     "editorGroupHeader.tabsBackground": "#000000",
@@ -77,10 +78,15 @@
     "editorHoverWidget.background": "#161616",
     "editorHoverWidget.border": "#282828",
     // Scrollbar
-    "scrollbarSlider.background": "#34343480",
+    "scrollbarSlider.background": "#ffffff27",
     "scrollbarSlider.hoverBackground": "#343434",
     // Settings
     "settings.modifiedItemIndicator": "#FFC799"
+  },
+  "semanticTokenColors": {
+    "variable": "#FFF",
+    "parameter": "#CCC",
+    "method": "#FFC799" 
   },
   "tokenColors": [
     {

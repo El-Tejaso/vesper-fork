@@ -10,6 +10,17 @@ Can't find any others so far
 
 ## Fixed issues
 
+## 0.0.5
+- Can't see text I highlighted on my bad monitor
+    - fix: lavender color from earlier + alpha for select 
+- Can't see where scrollbars are on my bad monitor
+    - fix: #FFFFFF + 27 alpha
+- Function variables aren't highlighted like a function
+    - Semantic highlighting. hmm looks like this theme doesn't use it at all. It does a tonne of other stuff though.
+    Also it looks like I can't remove all the highlighting rules and use just semantic highlighting, as that doesn't work for some reason. For now, I will just add a semantic highlighting rule making functions the orange color that was used for methods
+
+## 0.0.4
+
 - Can't read comments in git-dif
 - Comments cant be read when Ctrl+f selection is over them
     - Fix: Made comments blue (#8eb7ff). Looks better than I thought it would
